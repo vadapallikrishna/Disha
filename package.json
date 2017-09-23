@@ -1,0 +1,25 @@
+{
+  "name": "disha",
+  "version": "0.0.22",
+  "description": "very simple state management and router",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "postinstall": "tsc"
+  },
+  "keywords": [
+    "router"
+  ],
+  "author": "vadapallikrishna",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.5",
+    "@types/superagent": "^3.5.5",
+    "react": "^15.6.1",
+    "superagent": "^3.6.0",
+    "ts-loader": "^2.3.3",
+    "typescript": "^2.4.2"
+  }
+}
